@@ -79,7 +79,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background: linear-gradient(135deg,rgba(47, 72, 106, 0.76),rgb(51, 54, 37));
 `;
 
 const Card = styled.div`
@@ -129,13 +129,13 @@ const Input = styled.input`
   transition: border-color 0.3s;
 
   &:focus {
-    border-color: #4facfe;
+    border-color:rgb(52, 57, 61);
     outline: none;
   }
 `;
 
 const Button = styled.button`
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background: linear-gradient(135deg,rgb(16, 17, 17),rgb(45, 80, 81));
   color: #fff;
   border: none;
   padding: 0.8rem;
@@ -145,7 +145,7 @@ const Button = styled.button`
   transition: background 0.3s;
 
   &:hover {
-    background: linear-gradient(135deg, #00f2fe, #4facfe);
+    background: linear-gradient(135deg,rgb(42, 59, 60),rgb(46, 49, 51));
   }
 
   &:disabled {
